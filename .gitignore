@@ -1,0 +1,24 @@
+# AI Models - DO NOT COMMIT
+/models/
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.class
+
+# Environment variables
+.env
+
+# IDE and OS files
+.vscode/
+.idea/
+*.DS_Store
+
+# Log files
+*.log
+logs/
+EOF && git add . && git status
